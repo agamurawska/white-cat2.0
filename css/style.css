@@ -1,0 +1,84 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Mogra:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,500);
+
+
+body{
+	margin:0px;
+	font-family: 'Mogra', sans-serif;
+	background: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) 10% 45%;
+	}
+	
+header{
+	padding:40px;
+	background: url( https://images.pexels.com/photos/158780/leaf-nature-green-spring-158780.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb ) 10% 45%;
+	}
+	
+header h1{ 
+    color: white;
+    font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+    text-transform: uppercase;    
+    text-decoration: underline; 
+	}
+	
+header p{
+	color: white;	
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;	
+	}
+
+.container{
+	width:700px;
+	margin:0 auto;
+	padding-top:10px;
+	padding-bottom:15px;
+	background-color: #cbffed;;
+	color: #1E1F29;
+	}
+	
+.about {
+	padding-left:20%;
+	padding-right:20%;
+	font-family: 'Lato', sans-serif;
+	}
+	
+.about h2{
+	margin-top:60px;
+	font-size:28px;
+	color:#8e44ad;}
+
+.interests{
+	padding-left:10%;
+	padding-right:10%;
+	font-family: 'Lato', sans-serif;
+	}
+.interests h2{
+	margin-top:40px;
+	color:#8e44ad;}
+	
+.interests ul{
+	list-style-type:square;
+	}
+
+footer {
+	margin-top: 60px;
+  	padding: 30px;
+  	background: #333333;
+}
+
+footer p {
+  	text-align: center;
+  	color: #B0B5C4;
+}
+
+footer a {
+  	text-decoration: none;  	
+  	color: #2980b9;
+  	font-weight: bold;
+	}
+	
+a:hover{
+	color:#ff66cc;
+	}
